@@ -5,3 +5,4 @@ node_modules/
 /test-environment/test-reports/
 .vs
 .git
+package-lock.json
