@@ -24,6 +24,9 @@ exports.DemoQAPage = class DemoQAPage {
     this.currentAddressTxtBox = this.page.locator(Locators.currentAddressTxtBox);
     this.selectStateDropDowm = this.page.locator(Locators.selectStateDropDowm);
     this.selectCityDropDown = this.page.locator(Locators.selectCityDropDown);
+    this.submitBtn = this.page.locator(Locators.submitBtn);
+    this.titleFormSubmitted = this.page.locator(Locators.titleFormSubmitted);
+    this.closeBtn = this.page.locator(Locators.closeBtn);
   }
 
   async NavigateToDemoQAPage(){

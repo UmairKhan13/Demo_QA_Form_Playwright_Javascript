@@ -107,7 +107,7 @@ exports.PlaywrightCore = class PlaywrightCore {
     {
         return await chromium.launch()
     }
-    static async keyboardPress(keyword)
+    static async keyboardPress(page, keyword)
     {
         await page.keyboard.press(keyword);
     }
