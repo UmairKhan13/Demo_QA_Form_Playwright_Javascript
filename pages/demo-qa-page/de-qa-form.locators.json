@@ -1,0 +1,18 @@
+{
+    "firstNameTxtBox":"#firstName",
+    "lastNameTxtBox":"#lastName",
+    "emailTxtBox":"#userEmail",
+    "maleRadioBtn":"//label[normalize-space()='Male']",
+    "femaleRadioBtn":"#gender-radio-2",
+    "otherRadioBtn":"#gender-radio-3",
+    "mobileNumberTxtBox":"userNumber",
+    "dateOfBithInputField":"#dateOfBirthInput",
+    "subjectTxtBox":"#subjectsContainer",
+    "sportsCheckBox":"#hobbies-checkbox-1",
+    "readingCheckBox":"#hobbies-checkbox-2",
+    "musicCheckBox":"#hobbies-checkbox-3",
+    "uploadPicture":"#uploadPicture",
+    "currentAddressTxtBox":"#currentAddress",
+    "selectStateDropDowm":"//div[contains(text(),'Select State')]",
+    "selectCityDropDown":"//div[contains(text(),'Select City')]"
+}
